@@ -1,0 +1,43 @@
+下記のコードをdjangoで作成😊
+
+ハリー・ウィンストン　0、8ct/E/VS1/3EX/none
+
+ラウンドカット、トリストリング
+
+実際であると判断されました。
+
+以下は、検索コマンドの SQL クエリーです：
+```sql
+SELECT * 
+FROM Diamonds d 
+JOIN Brands b ON d.brand_id = b.id 
+WHERE d.brand_name = 'Harry Winston' 
+AND d.diamond_weight = 0.8 
+AND d.clarity = 'VS1' 
+AND d.cut = '3EX' 
+AND d.certification IS NULL 
+AND d.shape = 'Round cut' 
+AND d.setting = 'Tristro';
+```
+この SQL クエリーは、指定された特性の ハリー・ウィンストンダイヤモンドリングを検索します。下記のコードをdjangoで作成😊
+
+ハリー・ウィンストン　0、8ct/E/VS1/3EX/none
+
+ラウンドカット、トリストリング
+
+実際であると判断されました。
+
+以下は、検索コマンドの SQL クエリーです：
+```sql
+SELECT * 
+FROM Diamonds d 
+JOIN Brands b ON d.brand_id = b.id 
+WHERE d.brand_name = 'Harry Winston' 
+AND d.diamond_weight = 0.8 
+AND d.clarity = 'VS1' 
+AND d.cut = '3EX' 
+AND d.certification IS NULL 
+AND d.shape = 'Round cut' 
+AND d.setting = 'Tristro';
+```
+この SQL クエリーは、指定された特性の ハリー・ウィンストンダイヤモンドリングを検索します。
